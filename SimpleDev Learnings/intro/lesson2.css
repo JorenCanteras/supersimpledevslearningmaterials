@@ -1,0 +1,250 @@
+.vidtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    /* font-style: italic;
+    text-align: center; */
+}
+
+.vidstats{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(97, 86, 86);
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.vidauthor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(97, 86, 86);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.vidcomm{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(97, 86, 86);
+    width: 288px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.shopnow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(212, 63, 63);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.udl{
+    cursor: pointer;
+}
+
+.udl:hover{
+    text-decoration: underline;
+}
+
+.tfont{
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.bd{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.se{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(212, 72, 72);
+    
+}
+
+.hcc{
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.btp{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    width: 400px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.itc{
+    font-family: Verdana;
+    font-size: 20px;
+    width: 400px;
+    line-height: 25px;
+}
+
+.gs{
+    font-family: Verdana;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(53, 110, 36);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.sfyb{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    
+}
+
+.sha{
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.lm{
+    font-family: Arial;
+    font-size: 22px;
+    color: rgb(107, 122, 173);
+}
+
+.fe{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.n{
+    color: rgb(245, 99, 0);
+    line-height: 2px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.mp{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.sp{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.fd{
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+
+.by{
+    background-color: rgb(0, 113, 227);
+    color: white;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ff{
+    font-family: Arial;
+    font-size: 18px;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.num{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.usd{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.td{
+    color: rgb(79, 125, 78);
+}
+
+.pc{
+    color: red;
+}
+
+.fcc{
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .tweet-header {
+    margin-bottom: 5px;
+  }
+
+  .tweet-author {
+    font-weight: bold;
+  }
+
+  .tweet-info {
+    color: rgb(100, 100, 100);
+  }
+
+  .tweet {
+    width: 600px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .twitter-handle {
+    color: rgb(29, 155, 240);
+  }

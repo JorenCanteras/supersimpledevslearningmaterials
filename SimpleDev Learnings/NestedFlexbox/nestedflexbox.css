@@ -1,0 +1,200 @@
+*{
+  font-family: Arial;
+}
+/* exercise 1 *//* exercise 1 *//* exercise 1 *//* exercise 1 *//* exercise 1 *//* exercise 1 *//* exercise 1 *//* exercise 1 */
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+  
+  .column1 {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item1 {
+    background-color: black;
+    color: white;
+  }
+  
+  .column2 {
+    background-color: lightblue;
+    width: 200px;
+  }
+/* excercise 2 *//* excercise 2 *//* excercise 2 *//* excercise 2 *//* excercise 2 *//* excercise 2 *//* excercise 2 */
+.flexbox2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+  }
+  
+  .column11 {
+    background-color: lightpink;
+    width: 100px;
+  }
+  
+  .column22 {
+    background-color: lightblue;
+    width: 200px;
+  }
+  
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .row2-item {
+    background-color: black;
+    color: white;
+  }
+  /* excercise 3 and 4*/  /* excercise 3 and 4*/ /* excercise 3 and 4*/ /* excercise 3 and 4*/ /* excercise 3 and 4*/
+
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .inbox-label {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 20px;
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sender-picture-container {
+    margin-right: 10px;
+  }
+  
+  .sender-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .email-content {
+    flex: 1;
+  }
+  
+  .email-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+  
+  .sender-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .send-time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+  }
+  
+  .subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message {
+    color: rgb(120, 120, 120);
+  }
+
+  /* exercise 5 */  /* exercise 5 */  /* exercise 5 */  /* exercise 5 */  /* exercise 5 */
+
+  .tweet {
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .profile-picture-column {
+    margin-right: 10px;
+  }
+  
+  .profile-picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .tweet-column {
+    flex: 1;
+  }
+  
+  .tweet-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  
+  .tweet-author {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .tweet-author-handle {
+    color: rgb(111, 111, 111);
+  }
+  
+  .tweet-content {
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .video-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .thumbnail-column {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+  }
+  
+  .video-info-column {
+    flex: 1;
+  }
+  
+  .video-website {
+    color: rgb(111, 111, 111);
+    margin-bottom: 3px;
+  }
+  
+  .video-title {
+    line-height: 22px;
+  }

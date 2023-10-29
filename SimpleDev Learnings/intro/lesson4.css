@@ -1,0 +1,144 @@
+.n,.e{
+    display: block;
+    width: 160px;
+    margin-bottom: 5px;
+}
+
+.qs{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-logo{
+    display: block;
+    width: 200px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.se{
+    font-size: 16px;
+    width: 500px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+/* .fn{
+    font-size: 16px;
+    width: 100px;
+}
+
+.ln{
+    font-size: 16px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.em{
+    font-size: 16px;
+    width: 212px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.su{
+    font-size: 16px;
+    font-weight: bold;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(53, 71, 236);
+    color: white;
+    border: none;
+    border-radius: 8px;
+} */
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .first-name {
+    width: 130px;
+  }
+  
+  .last-name {
+    width: 130px;
+  }
+  
+  .email {
+    display: block;
+    width: 296px;
+  }
+  
+  .su{
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border: none;
+    width: 330px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
+  .su:hover{
+    opacity: .9;
+  }
+
+
+  .ra {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  
+  .ep,.ed {
+    display: block;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    width: 360px;
+  }
+  
+  .rn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  .sl {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+  }

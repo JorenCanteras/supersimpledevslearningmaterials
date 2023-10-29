@@ -1,0 +1,331 @@
+.uber{
+    background-color: black;
+    color: white ;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 2px;
+    vertical-align: top;  /* aligning the top*/
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s; /* opacity trasnsition*/
+}
+
+.uber:hover{
+    opacity: 0.8;  /* opacity means fade out*/
+    /* background-color: red; */
+}
+
+.uber:active{
+    opacity: 0.5;  /* opacity means fading */
+    /* background-color: green; */
+}
+
+.amazon{
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+
+.amazon:hover{
+    background-color: darkorange ;
+}
+
+.amazon:active{
+    opacity: 0,5;
+}
+
+.github{
+    background-color: rgb(89, 165, 89);
+    color: white;
+    border: white;
+    height: 36px;
+    width: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s; /* opacity trasnsition*/
+
+}
+
+.github:hover{
+    background-color: white;
+    color:rgb(89, 165, 89);
+}
+
+.github:active{
+    opacity: 0.7;
+}
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 3px;
+    transition: .15s;
+}
+
+.bootstrap:hover{
+    background-color: rgb(91, 73, 119);
+}
+
+.bootstrap:active {
+    opacity: .8;
+}
+
+.bootstrap2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(108, 117, 125);
+    height: 36px;
+    width: 105px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 1s, color 1s;
+}
+
+.bootstrap2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 200px;
+    border-radius: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: box-shadow 1s;
+}
+
+.linkedin:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); /*0.15 means opacity the fourth is a opacity*/
+}
+
+.linkedin2{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(10, 102, 194);
+    height: 36px;
+    width: 70px;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+}
+
+.linkedin2:hover{
+    background-color:rgb(10, 102, 194) ;
+    color: white;
+}
+
+.linkedin2:active{
+    opacity: 0.7;
+}
+
+/* lesson 2 *//* lesson 2 *//* lesson 2 *//* lesson 2 *//* lesson 2 *//* lesson 2 *//* lesson 2 *//* lesson 2 */
+
+.amazon-link {
+    color: rgb(0, 113, 133);
+    transition: 0,15s;
+  }
+.amazon-link:hover{
+   color: rgb(180, 66, 24);
+
+}
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .price {
+    color: rgb(0, 136, 0);
+    font-weight: bold;
+  }
+
+  .add-to-cart-button {
+    background-color: rgb(249, 217, 76);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: .30s;
+  }
+
+  .add-to-cart-button:hover{
+    background-color: darkorange;
+  }
+
+  .add-to-cart-button:active{
+    opacity: .6;
+  }
+
+  .buy-now-button {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .buy-now-button:hover{
+    background-color: darkorange;
+  }
+
+  .buy-now-button:active{
+    opacity: .6;
+  }
+/* 
+  .lesson2{
+    background-color: grey;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: black;
+    border: solid;
+  } */
+/* lesson3 *//* lesson3 *//* lesson3 *//* lesson3 *//* lesson3 *//* lesson3 *//* lesson3 *//* lesson3 */
+  
+.back-button {
+    background-color: aquamarine;
+    color: black;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+  }
+.back-button:hover{
+    background-color: orange;
+    color: white;
+    opacity: .8;
+
+
+}
+.search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+  }
+
+.next-button {
+    background-color: aquamarine;
+    color: black;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+  }
+
+  .next-button:hover{
+    background-color: orange;
+    color: white;
+    opacity: .8;
+  }
+/* stretch button */
+
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+  }
+
+  .stretch-button:hover {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+/* shadow button */
+  .shadow-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .shadow-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+/* stretch button */
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+      margin 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Practice</title>
+</head>
+<body style="
+        height: 3000px;
+        padding-top: 60px; /* best practice to exercise fixed position */ /* to headbar */
+        padding-left: 80px; /* best practice to exercise fixed position */ /* to sidebar */
+        ">
+        <!-- Start browser -->
+    <!-- this is position fixed -->
+    <!-- fixed = placed in the browser window -->
+    <div style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px; 
+        z-index: 1;
+        /* insted of bottom we can use height */
+        ">header</div>
+    <!-- this is position sidebar -->
+    <div style=" 
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 50px;
+        width: 72px;
+    ">
+        sidebar
+<!-- absolute sa loob ng fixed-->
+            <div style="
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 0px;
+            right: 0px;
+        ">
+        x
+        </div>
+    </div>
+        <!-- End browser -->
+    <!-- this is position absolute is in page -->
+    <!-- absolute = placed on the page -->
+    <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+        ">absolute
+    </div>
+
+
+    <!-- this is position static -->
+    <div style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;  
+        ">div1</div>
+    <!-- this is position relative -->
+    <div style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        ">div2
+
+        <div style="
+         position: absolute;
+         background-color: black;
+         color: white;
+         bottom: 10px;
+         right: 10px;
+        ">5:00
+        </div>    
+    
+    </div>
+    <!--  -->
+</body>
+</html>
